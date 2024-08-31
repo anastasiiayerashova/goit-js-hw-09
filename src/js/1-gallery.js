@@ -84,7 +84,7 @@ function destructuring(images) {
 </li>
 `
     }
-    ).join("");
+    ).join(""); 
 }
 
 // const destructuring = (images) => {
@@ -104,8 +104,10 @@ function destructuring(images) {
 // }
     
 ul.insertAdjacentHTML("beforeend", destructuring(images))
+
 let lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',        
     captionPosition: 'bottom',  
-    captionDelay: 250,          
+    captionDelay: 250, 
 });
+
