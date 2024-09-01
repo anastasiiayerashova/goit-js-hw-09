@@ -2,6 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 
+.list {
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 24px;
+}
 .gallery {
   display: flex;
   justify-content: center;
